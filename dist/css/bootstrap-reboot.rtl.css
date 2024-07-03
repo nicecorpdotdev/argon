@@ -409,7 +409,6 @@ kbd {
   font-size: 0.875em;
   color: var(--bs-body-bg);
   background-color: var(--bs-body-color);
-  border-radius: 0.25rem;
 }
 kbd kbd {
   padding: 0;
