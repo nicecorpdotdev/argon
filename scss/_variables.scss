@@ -7,16 +7,16 @@
 
 // scss-docs-start gray-color-variables
 $white:    #fff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
-$gray-600: #6c757d !default;
-$gray-700: #495057 !default;
-$gray-800: #343a40 !default;
-$gray-900: #212529 !default;
-$black:    #000 !default;
+$gray-100: #f4f4f4 !default; //changed
+$gray-200: #cacaca !default; //changed
+$gray-300: #c6c6c6 !default; //changed
+$gray-400: #a8a8a8 !default; //changed
+$gray-500: #8d8d8d !default; //changed
+$gray-600: #6f6f6f !default; //changed
+$gray-700: #525252 !default; //changed
+$gray-800: #393939 !default; //changed
+$gray-900: #262626 !default; //changed
+$black:    #161616 !default; //changed
 // scss-docs-end gray-color-variables
 
 // fusv-disable
@@ -36,16 +36,16 @@ $grays: (
 // fusv-enable
 
 // scss-docs-start color-variables
-$blue:    #0d6efd !default;
+$blue:    #0f62fe !default; //changed
 $indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
-$pink:    #d63384 !default;
-$red:     #dc3545 !default;
-$orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
-$green:   #198754 !default;
-$teal:    #20c997 !default;
-$cyan:    #0dcaf0 !default;
+$purple:  #6929c4 !default; //changed
+$pink:    #ee538b !default; //changed
+$red:     #da1e28 !default; //changed
+$orange:  #ff832b !default; //changed
+$yellow:  #fddc69 !default; //changed
+$green:   #24a148 !default; //changed
+$teal:    #009d9a !default; //changed
+$cyan:    #0043ce !default; //changed
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -317,7 +317,14 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "purple":     $purple,
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "accent1":    $gray-300,
+  "accent2":    $gray-400,
+  "accent3":    $gray-500,
+  "accent4":    $gray-600,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -369,8 +376,8 @@ $escaped-characters: (
 
 $enable-caret:                true !default;
 $enable-rounded:              true !default;
-$enable-shadows:              false !default;
-$enable-gradients:            false !default;
+$enable-shadows:              true !default;
+$enable-gradients:            true !default;
 $enable-transitions:          true !default;
 $enable-reduced-motion:       true !default;
 $enable-smooth-scroll:        true !default;
@@ -415,6 +422,11 @@ $spacers: (
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,
+  6: $spacer * 4.5,
+  7: $spacer * 6,
+  8: $spacer * 8,
+  9: $spacer * 10,
+  10: $spacer * 12,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -425,7 +437,18 @@ $spacers: (
 // scss-docs-start position-map
 $position-values: (
   0: 0,
+  10: 10%,
+  20: 20%,
+  25: 25%,
+  30: 30%,
+  40: 40%,
   50: 50%,
+  60: 60%,
+  70: 70%,
+  75: 75%,
+  80: 80%,
+  90: 90%,
+  95: 95%,
   100: 100%
 ) !default;
 // scss-docs-end position-map
@@ -487,7 +510,8 @@ $grid-breakpoints: (
   md: 768px,
   lg: 992px,
   xl: 1200px,
-  xxl: 1400px
+  xxl: 1400px,
+  xxxl: 1600px
 ) !default;
 // scss-docs-end grid-breakpoints
 
@@ -505,7 +529,8 @@ $container-max-widths: (
   md: 720px,
   lg: 960px,
   xl: 1140px,
-  xxl: 1320px
+  xxl: 1320px,
+  xxxl: 1570px
 ) !default;
 // scss-docs-end container-max-widths
 
