@@ -24,6 +24,7 @@
   "bugs": {
     "url": "https://github.com/nicecorpdotdev/argon/issues"
   },
+  "jsdelivr": "dist/js/bootstrap.bundle.js",
   "main": "dist/js/bootstrap.bundle.js",
   "module": "dist/js/bootstrap.esm.js",
   "sass": "scss/bootstrap.scss",
