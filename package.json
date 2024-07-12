@@ -1,9 +1,9 @@
 {
   "name": "argon-bootstrap-theme",
   "description": "This repository contains a customized Bootstrap theme that provides a modern and unique design for your web projects. It includes a variety of components, utilities, and example pages to help you get started quickly.",
-  "version": "1.0.0-alpha.03",
+  "version": "1.0.0-alpha.04",
   "config": {
-    "version_short": "1.0.0-alpha.03"
+    "version_short": "1.0.0-alpha.04"
   },
   "keywords": [
     "css",
